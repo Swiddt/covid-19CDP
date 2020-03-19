@@ -4,11 +4,20 @@
     {
       "id": "00122",
       "name": "Testkreis",
-	  "url": "https://www.test.com",
-	  "scrab_function": 0,
+	    "url": "https://www.test.com",
+	    "scrab_function": 0,
       "pre": "<examplehtml>",
       "post": " Erkrankte",
-	  "xpath": ""
+	    "xpath": ""
+    },
+    {
+      "id": "05334",
+      "name": "Kreis Aachen",
+      "url": "http://www.aachen.de/DE/stadt_buerger/notfall_informationen/corona/aktuelles/index.html",
+      "scrab_function": 0,
+      "pre":"Aktuell ",
+      "post": "",
+      "xpath": "//*[@id=\"rahmeninhalt\"]/div[3]/div[1]/div/div/read/ul[2]/li[1]/p/text()"
     }
   ]
 }
