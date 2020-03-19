@@ -4,11 +4,11 @@
     {
       "id": "00122",
       "name": "Testkreis",
-	  "url": "https://www.test.com",
-	  "scrab_function": 0,
+	    "url": "https://www.test.com",
+	    "scrab_function": 0,
       "pre": "<examplehtml>",
       "post": " Erkrankte",
-	  "xpath": ""
+	    "xpath": ""
     }
   ]
 }
