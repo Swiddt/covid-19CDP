@@ -7,3 +7,7 @@
 -special cases:
   -Bielefeld
   
+
+
+  Scrap Function 1: Satz nach Schlagwörtern und Zahlen durchsuchen
+  Scrap Function 2: Titel der aktuellsten Meldung nach Zahl und Schlagwörtern scannen

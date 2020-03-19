@@ -18,6 +18,232 @@
       "pre":"Aktuell ",
       "post": "",
       "xpath": "//*[@id=\"rahmeninhalt\"]/div[3]/div[1]/div/div/read/ul[2]/li[1]/p/text()"
+    },
+    {
+      "id": "05711",
+      "name": "Stadt Bielefeld",
+      "url": "https://www.bielefeld.de/de/gs/covi/",
+      "scrab_function": 1,
+      "pre":"",
+      "post": "",
+      "xpath": ""
+    },
+    {
+      "id": "05911",
+      "name": "Stadt Bochum",
+      "url": "https://www.bochum.de/Corona",
+      "scrab_function": 1,
+      "pre":"",
+      "post": "",
+      "xpath": "/html/body/div[2]/div[4]/div/div/main/div[2]/section[3]/div/p[5]/text()"
+    },
+    {
+      "id": "05314",
+      "name": "Stadt Bonn",
+      "url": "https://www.bonn.de/themen-entdecken/gesundheit-verbraucherschutz/coronavirus.php",
+      "scrab_function": 0,
+      "pre": "",
+      "post": " bestätigte Coronavirus-Infektionen",
+      "xpath": "//*[@id=\"SP-Content\"]/header/div[2]/p/text()"
+    },
+    {
+      "id": "05554",
+      "name": "Kreis Borken",
+      "url": "https://kreis-borken.de/de/service/aktuelles/aktuelle-pressemeldungen/",
+      "scrab_function": 2,
+      "pre":"Inzwischen ",
+      "post": " bestätigte Fälle",
+      "xpath": ""
+    },
+    {
+      "id": "05512",
+      "name": "Stadt Bottrop",
+      "url": "https://www.bottrop.de/soziales/gesundheit/infos-zum-coronavirus/index.php#Aktuelle_Lage_und_Informationen",
+      "scrab_function": 0,
+      "pre":"",
+      "post": " nachgewiesene",
+      "xpath": "//*[@id=\"SP-Collapsible-ODE2NjQyNTQ4\"]/section[1]/div/ul/li[1]"
+    },
+    {
+      "id": "05558",
+      "name": "Kreis Coesfeld",
+      "url": "https://www.kreis-coesfeld.de/aktuelles/pressemeldungen.html",
+      "scrab_function": 2,
+      "pre":"",
+      "post": "",
+      "xpath": ""
+    },
+    {
+      "id": "05913",
+      "name": "Stadt Dortmund",
+      "url": "https://www.dortmund.de/de/leben_in_dortmund/nachrichtenportal/alle_nachrichten/nachricht.jsp?nid=622746",
+      "scrab_function": 0,
+      "pre":"",
+      "post": "",
+      "xpath": ""
+    },
+    {
+      "id": "05112",
+      "name": "Stadt Duisburg",
+      "url": "",
+      "scrab_function": 1,
+      "pre":"",
+      "post": "",
+      "xpath": ""
+    },
+    {
+      "id": "",
+      "name": "",
+      "url": "",
+      "scrab_function": 0,
+      "pre":"",
+      "post": "",
+      "xpath": ""
+    },
+    {
+      "id": "",
+      "name": "",
+      "url": "",
+      "scrab_function": 0,
+      "pre":"",
+      "post": "",
+      "xpath": ""
+    },
+    {
+      "id": "",
+      "name": "",
+      "url": "",
+      "scrab_function": 0,
+      "pre":"",
+      "post": "",
+      "xpath": ""
+    },
+    {
+      "id": "",
+      "name": "",
+      "url": "",
+      "scrab_function": 0,
+      "pre":"",
+      "post": "",
+      "xpath": ""
+    },
+    {
+      "id": "",
+      "name": "",
+      "url": "",
+      "scrab_function": 0,
+      "pre":"",
+      "post": "",
+      "xpath": ""
+    },
+    {
+      "id": "",
+      "name": "",
+      "url": "",
+      "scrab_function": 0,
+      "pre":"",
+      "post": "",
+      "xpath": ""
+    },
+    {
+      "id": "",
+      "name": "",
+      "url": "",
+      "scrab_function": 0,
+      "pre":"",
+      "post": "",
+      "xpath": ""
+    },
+    {
+      "id": "",
+      "name": "",
+      "url": "",
+      "scrab_function": 0,
+      "pre":"",
+      "post": "",
+      "xpath": ""
+    },
+    {
+      "id": "",
+      "name": "",
+      "url": "",
+      "scrab_function": 0,
+      "pre":"",
+      "post": "",
+      "xpath": ""
+    },
+    {
+      "id": "",
+      "name": "",
+      "url": "",
+      "scrab_function": 0,
+      "pre":"",
+      "post": "",
+      "xpath": ""
+    },
+    {
+      "id": "",
+      "name": "",
+      "url": "",
+      "scrab_function": 0,
+      "pre":"",
+      "post": "",
+      "xpath": ""
+    },
+    {
+      "id": "",
+      "name": "",
+      "url": "",
+      "scrab_function": 0,
+      "pre":"",
+      "post": "",
+      "xpath": ""
+    },
+    {
+      "id": "",
+      "name": "",
+      "url": "",
+      "scrab_function": 0,
+      "pre":"",
+      "post": "",
+      "xpath": ""
+    },
+    {
+      "id": "",
+      "name": "",
+      "url": "",
+      "scrab_function": 0,
+      "pre":"",
+      "post": "",
+      "xpath": ""
+    },
+    {
+      "id": "",
+      "name": "",
+      "url": "",
+      "scrab_function": 0,
+      "pre":"",
+      "post": "",
+      "xpath": ""
+    },
+    {
+      "id": "05111",
+      "name": "Stadt Düsseldorf",
+      "url": "",
+      "scrab_function": 0,
+      "pre":"",
+      "post": "",
+      "xpath": ""
+    },
+    {
+      "id": "06634",
+      "name": "Schwalm-Eder-Kreis",
+      "url": "https://www.schwalm-eder-kreis.de/Aktuelles/Aktuelle-Informationen-zum-neuartigen-Coronavirus-Covid-19/Aktuelle-Zahlen-Schwalm-Eder.htm",
+      "scrab_function": 0,
+      "pre":"",
+      "post": "",
+      "xpath": "//*[@id=\"content_frame\"]/div/div/div/div/div/div/div/div/div/div/table/thead/tr[2]/th[1]"
     }
+    
   ]
 }
