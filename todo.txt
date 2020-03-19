@@ -1,0 +1,9 @@
+-read json
+-write json
+-iterate over districts
+-error handling
+-no new cases handling
+
+-special cases:
+  -Bielefeld
+  
