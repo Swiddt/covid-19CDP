@@ -1,5 +1,12 @@
 from lxml import html
 import requests
+import json
+
+# some JSON:
+x =  '{ "name":"John", "age":30, "city":"New York"}'
+
+# parse x:
+y = json.loads(x)
 
 class district:
   id = '00' 
@@ -25,6 +32,16 @@ def scrab_xpath(url, xpath, pre, post):
     value += c
   
   print(value)
+  return value
+
+with open('districts.json', 'r') as file:
+    data = file.read()
+districts = json.loads(data)
+
+
+for d in districts:
+  if d.scrab_function ==0:
+    scrab_xpath(d.url, d.xpath, d.pre, d.post)
 
 #url = 'https://www.kreis-re.de/Inhalte/Buergerservice/Gesundheit_und_Ernaehrung/Infektionsschutz/Coronavirus.asp'
 #scrab_xpath(url, '//*[@id="id35557"]/ul[1]/li/strong/text()')
