@@ -1,0 +1,12 @@
+{
+  [
+    {
+      "id": 00,
+      "name": "Testkreis",
+	  "url": 
+      "pre": "<examplehtml>",
+      "post": " Erkrankte",
+      "pollingFunction": 0
+    }
+  ]
+}
