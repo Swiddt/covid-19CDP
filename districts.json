@@ -9,6 +9,15 @@
       "pre": "<examplehtml>",
       "post": " Erkrankte",
 	    "xpath": ""
+    },
+    {
+      "id": "05334",
+      "name": "Kreis Aachen",
+      "url": "http://www.aachen.de/DE/stadt_buerger/notfall_informationen/corona/aktuelles/index.html",
+      "scrab_function": 0,
+      "pre":"Aktuell ",
+      "post": "",
+      "xpath": "//*[@id=\"rahmeninhalt\"]/div[3]/div[1]/div/div/read/ul[2]/li[1]/p/text()"
     }
   ]
 }
