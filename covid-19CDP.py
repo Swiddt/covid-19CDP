@@ -34,21 +34,27 @@ def scrab_xpath(url, xpath, pre, post):
   print(value)
   return value
 
-with open('districts.json', 'r') as file:
-    data = file.read()
-districts = json.loads(data)
+def poll():
+  with open('districts.json', 'r') as file:
+      data = file.read()
+  districts = json.loads(data)
 
 
-for d in districts:
-  if d.scrab_function ==0:
-    scrab_xpath(d.url, d.xpath, d.pre, d.post)
+  for d in districts:
+    if d.scrab_function ==0:
+      scrab_xpath(d.url, d.xpath, d.pre, d.post)
 
 #url = 'https://www.kreis-re.de/Inhalte/Buergerservice/Gesundheit_und_Ernaehrung/Infektionsschutz/Coronavirus.asp'
 #scrab_xpath(url, '//*[@id="id35557"]/ul[1]/li/strong/text()')
-url = 'http://www.aachen.de/DE/stadt_buerger/notfall_informationen/corona/aktuelles/index.html'
-pre = "Aktuell "
-scrab_xpath(url, '//*[@id="rahmeninhalt"]/div[3]/div[1]/div/div/read/ul[2]/li[1]/p/text()', pre, '')
+def test():
+  url = 'http://www.aachen.de/DE/stadt_buerger/notfall_informationen/corona/aktuelles/index.html'
+  pre = "Aktuell "
+  xpath = '//*[@id="rahmeninhalt"]/div[3]/div[1]/div/div/read/ul[2]/li[1]/text()'
+  scrab_xpath(url, xpath, pre, '')
 
+
+test()
+#poll()
 
 
 #r = requests.get(url)
